@@ -1,5 +1,73 @@
-body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
 
-        .boton-enlace { display:inline-block; padding:8px 12px; text-decoration:none; border-radius:6px; background:#eee; color:#333; }
+
+.boton-enlace {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #eee;
+    color: #333;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+     
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background: #1e90ff;
+      border: none;
+      color: white;
+      font-size: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .login-box button:hover {
+      background: #0d6efd;
+    }
+
+    .login-box .extra {
+      margin-top: 15px;
+      font-size: 13px;
+    }
+
+    .login-box .extra a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    .login-box .extra a:hover {
+      text-decoration: underline;
+    }
