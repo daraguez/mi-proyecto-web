@@ -1,0 +1,5 @@
+body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .boton-enlace { display:inline-block; padding:8px 12px; text-decoration:none; border-radius:6px; background:#eee; color:#333; }
